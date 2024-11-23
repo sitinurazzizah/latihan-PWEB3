@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS - Profil Instagram</title>
+    <style>
+        /* Styling untuk body */
+        body {
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle, linear-gradient(45deg, #6F4F37, #D1B28D),);
+            margin: 0;
+            padding: 0;
+            color: #A38068;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Styling untuk kontainer */
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #816651;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        /* Styling untuk gambar */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        /* Styling untuk heading */
+        h1 {
+            font-size: 2rem;
+            color: linear-gradient(45deg, #816651, #D1B28D);
+            margin-bottom: 10px;
+        }
+
+        /* Styling untuk paragraf */
+        p {
+            font-size: 1.1rem;
+            color: linear-gradient(45deg, #816651, #D1B28D);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Styling untuk tombol */
+        .button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color:linear-gradient(45deg, #816651, #D1B28D);
+            color: rgb(241, 186, 134), 117, 169;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        /* Efek hover pada tombol */
+        .button:hover {
+            background-color:  #6F4F37;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Gambar Profil -->
+        <img src="gambar1.jpg"Foto Profil class="profile-image">
+
+        <!-- Heading -->
+        <h1>Siti Nur Azizah</h1>
+
+        <!-- Paragraf -->
+        <p>Ig : sitiinrazzh____</p>
+        
+        <!-- Tombol yang membuka halaman Instagram -->
+        <a href="https://www.instagram.com/sitiinrazzh____" target="_blank" 
+        class="button">Lihat Profil Instagram</a>
+    </div>
+
+</body>
+</html>
